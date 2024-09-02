@@ -1,6 +1,8 @@
 from django.db import models
 from django.contrib.auth.models import AbstractBaseUser, BaseUserManager
 
+
+
 # Create your models here.
 
 
@@ -99,3 +101,5 @@ class UserProfile(models.Model):
 
     def __str__(self) -> str:
         return self.user.email
+
+
